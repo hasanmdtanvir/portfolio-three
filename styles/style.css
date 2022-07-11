@@ -68,7 +68,7 @@ li a:hover {
 
 .half-width img {
     width: 100%;
-    padding-left: 50px;
+    padding-left: 100px;
 }
 
 .below-nav+div {
@@ -146,11 +146,74 @@ li a:hover {
 
 }
 
-footer {
+.experiences {
     position: relative;
-    top: 200px;
-    bottom: 0;
-    background-color: rgb(50, 50, 145);
-    height: 200px;
-    width: 100%;
+    top: 100px;
+    margin-bottom: 200px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.experiences h1 {
+    color: rgb(67, 67, 226);
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.full-stack {
+    width: 400px;
+    border: 2px solid yellow;
+}
+
+.full-stack {
+    width: 500px;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 10px 10px 40px gray;
+    border: 4px solid rgb(67, 67, 226);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.full-stack h2 {
+    font-size: 30px;
+}
+
+.full-stack h4 {
+    color: rgb(67, 67, 226);
+    font-size: 18px;
+}
+
+.full-stack p {
+    font-size: 18px;
+}
+
+.baby-web {
+    width: 500px;
+
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 10px 10px 40px gray;
+    border: 4px solid rgb(67, 67, 226);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.baby-web h2 {
+    font-size: 30px;
+}
+
+.baby-web h4 {
+    color: rgb(67, 67, 226);
+    font-size: 18px;
+}
+
+.baby-web p {
+    font-size: 18px;
 }
