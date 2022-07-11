@@ -1,0 +1,156 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(50, 50, 145);
+}
+
+nav img {
+    padding-left: 5%;
+    width: 30px;
+    height: 30px;
+}
+
+nav ul {
+    padding-right: 5%;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+    padding: 17px 10px;
+}
+
+.below-nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.half-width {
+    width: 45%;
+}
+
+.half-width h1 {
+    font-size: 60px;
+}
+
+.half-width span {
+    color: rgb(67, 67, 226);
+    font-size: 90px;
+}
+
+.half-width img {
+    width: 100%;
+    padding-left: 50px;
+}
+
+.below-nav+div {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.below-nav+div>a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 40px;
+
+}
+
+#contact-info {
+    position: relative;
+    background-color: rgb(67, 67, 226);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#about-info {
+    position: relative;
+    border: 2px solid rgb(67, 67, 226);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+#contact-info:hover {
+    position: relative;
+    border: 2px solid rgb(67, 67, 226);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+}
+
+#about-info:hover {
+    background-color: rgb(67, 67, 226);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.cv {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    background-color: rgb(67, 67, 226);
+    color: white;
+    padding: 10px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.about-self {
+    font-size: 22px;
+    text-align: justify;
+
+}
+
+footer {
+    position: relative;
+    top: 200px;
+    bottom: 0;
+    background-color: rgb(50, 50, 145);
+    height: 200px;
+    width: 100%;
+}
